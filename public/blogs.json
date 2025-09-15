@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering React Hooks: A Beginner’s Guide",
+    "cover_image": "https://i.ibb.co.com/zHVdzpX4/img1.jpg",
+    "author": "Sarah Johnson",
+    "author_image": "https://i.ibb.co.com/MD47WpYd/p1.jpg",
+    "reading_time": 7,
+    "posted_date": "2025-09-10",
+    "hashtag": ["#React", "#JavaScript", "#WebDevelopment"]
+  },
+  {
+    "id": 2,
+    "title": "10 Best Practices for Writing Clean Node.js Code",
+    "cover_image": "https://i.ibb.co.com/S7KmwFbW/img2.jpg",
+    "author": "Michael Smith",
+    "author_image": "https://i.ibb.co.com/Cpc8gYfP/p2.jpg",
+    "reading_time": 8,
+    "posted_date": "2025-09-08",
+    "hashtag": ["#NodeJS", "#Backend", "#CleanCode"]
+  },
+  {
+    "id": 3,
+    "title": "Exploring the Future of AI in Web Development",
+    "cover_image": "https://i.ibb.co.com/8LybSDMY/img3.jpg",
+    "author": "Emily Davis",
+    "author_image": "https://i.ibb.co.com/ZR8f5CyW/p3.jpg",
+    "reading_time": 6,
+    "posted_date": "2025-09-05",
+    "hashtag": ["#AI", "#WebDev", "#Technology"]
+  },
+  {
+    "id": 4,
+    "title": "A Complete Guide to Tailwind CSS for Beginners",
+    "cover_image": "https://i.ibb.co.com/qTJF5vT/img4.jpg",
+    "author": "James Wilson",
+    "author_image": "https://i.ibb.co.com/kpnpKxV/p4.jpg",
+    "reading_time": 9,
+    "posted_date": "2025-09-03",
+    "hashtag": ["#TailwindCSS", "#Frontend", "#CSS"]
+  },
+  {
+    "id": 5,
+    "title": "Understanding TypeScript: Why You Should Use It in 2025",
+    "cover_image": "https://i.ibb.co.com/9m9TxR8z/img5.jpg",
+    "author": "Sophia Martinez",
+    "author_image": "https://i.ibb.co.com/1J0Z9KW3/p5.jpg",
+    "reading_time": 10,
+    "posted_date": "2025-09-01",
+    "hashtag": ["#TypeScript", "#JavaScript", "#Programming"]
+  }
+]
