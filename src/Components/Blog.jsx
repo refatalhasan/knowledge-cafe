@@ -1,15 +1,15 @@
 import { CiBookmark } from "react-icons/ci";
 
-const Blog = ({ blog, handleAddToBookmark }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkasRead }) => {
 
     const { cover_image, title, author, author_image, posted_date, hashtag, reading_time } = blog;
 
     return (
-        <div className="gap-3 flex flex-col mb-10 bg-gray-100 p-8 rounded">
+        <div className="gap-3 flex flex-col mb-10 bg-gray-100 p-8 items-start rounded">
             <img className="rounded" src={cover_image} alt="" />        
                 <h2 className='text-3xl font-bold'>{title}</h2>
                 <p className='text-l font-light'>Reading time: {reading_time} m</p>
-            <div className="flex gap-3 items-center justify-between mt-12">
+            <div className="flex items-center gap-10 mt-12">
                 <div className='flex gap-4'>
                     <img className="h-13 rounded-full" src={author_image} alt="" />
                     <div>
@@ -33,6 +33,7 @@ const Blog = ({ blog, handleAddToBookmark }) => {
                     </a></span>)
                 }
             </p>
+            <button onClick={() => handleMarkasRead(reading_time)} style={{cursor:'pointer'}} className="text-sky-800 underline">Mark as read</button>
         </div>
     );
 };
